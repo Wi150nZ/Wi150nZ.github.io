@@ -50,13 +50,13 @@
 
     <!-- main content -->
     <div id="main_content_wrap" class="outer">
-        <section id="main_content" class="inner text-light bg-secondary">
+        <section id="main_content" class="inner">
             {{ content }}
         </section>
     </div>
 
     <!-- footer  -->
-    <div id="footer_wrap" class="outer">
+    <div id="footer_wrap" class="outer footer">
         <footer class="inner">
             {% if site.github.is_project_page %}
             <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a
