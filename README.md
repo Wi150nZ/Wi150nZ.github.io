@@ -2,4 +2,5 @@
 my portfolio
 
 ## TODO
-- create a navbar to page navigation
+- ~~create a navbar to page navigation~~
+- fix footer
