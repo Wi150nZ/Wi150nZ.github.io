@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <!-- self defined css -->
+    <link rel="stylesheet" href="/assets/css/sticky-foot.css">
+
     {% seo title=false %}
     <title>portfolio</title>
 </head>
@@ -56,7 +59,7 @@
     </div>
 
     <!-- footer  -->
-    <div id="footer_wrap" class="outer footer">
+    <div id="footer_wrap" class="outer footer text-light bg-dark">
         <footer class="inner">
             {% if site.github.is_project_page %}
             <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a
