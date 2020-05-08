@@ -1,3 +1,7 @@
+html, #content {
+    background: #f2f2f2;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
